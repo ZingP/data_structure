@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "(Windows) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "miDebuggerPath": "D:/TDM-GCC-64/bin/gdb.exe",
+            "environment": [],
+            "externalConsole": true,
+            "preLaunchTask": "g++"
+        }
+    ]
+}
