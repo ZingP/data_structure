@@ -1,7 +1,7 @@
 #include<iostream>
 
 void insertSort(int array[], int n) {
-    int i, arrLen, currentRight, currentIndex;
+    int i, currentRight, currentIndex;
 
     for (i = 1; i < n; i++) {
         currentRight = array[i];
