@@ -45,10 +45,10 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/TDM-GCC-64/include",
-                "C:/TDM-GCC-64/x86_64-w64-mingw32/include",
-                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include",
-                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++",
+                "D:/TDM-GCC-64/include",
+                "D:/TDM-GCC-64/x86_64-w64-mingw32/include",
+                "D:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include",
+                "D:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++",
                 "${workspaceRoot}"
             ],
             "defines": [

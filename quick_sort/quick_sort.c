@@ -5,7 +5,7 @@ int partition (int array[], int left, int right) {
     tmp = array[left];
     while (left < right) {
         while ((left < right) && (array[right] >= tmp)) {
-             right--;
+            right--;
         }
         array[left] = array[right];
         while ((left < right) && (array[left] <= tmp)) {
