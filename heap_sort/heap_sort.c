@@ -14,8 +14,8 @@ void sift(int array[], int left, int right) {
             array[father] = array[lf_child];
             father = lf_child;
             lf_child = 2 * father + 1;
-        }else{
-             break;
+        } else {
+            break;
         }  
     }
     array[father] = root;
